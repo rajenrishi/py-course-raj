@@ -1,0 +1,5 @@
+Django is a high-level Python web framework that encourages rapid development and clean,
+pragmatic design. Built by experienced developers.
+Built by experienced d
+Python web framework that
+Python tutorial django framework

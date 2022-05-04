@@ -1,0 +1,5 @@
+Network cables: 10
+USB Drives: 12
+HDMI Cables: 5
+RAM: 4
+HDD: 15
