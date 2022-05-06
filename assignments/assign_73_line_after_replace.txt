@@ -1,0 +1,2 @@
+Python is a popular language.
+Python is used in many applications.

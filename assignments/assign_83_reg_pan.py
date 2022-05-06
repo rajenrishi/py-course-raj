@@ -1,0 +1,14 @@
+"""
+Assignment: 83
+Write a Python program retrieve the PAN card ID from a text file. Use findall() function.
+PAN Card ID format example: ABCDE1234F
+TEXT: “THEPANCARDNUMBERISGHCDE1234FTHIS ISPYTHONCOURSETUTORIAL39845BUT
+FEATURESOFPYTHONPCYTRTF4348UIN HERITANCETHREADSAFE”
+Write above text to a file and use.
+"""
+import re
+
+text = "THEPANCARDNUMBERISGHCDE1234FTHIS ISPYTHONCOURSETUTORIAL39845BUT FEATURESOFPYTHONPCYTRTF4348UIN HERITANCETHREADSAFE"
+pat = "[A-Z]{5}[0-9]{4}[A-Z]{1}"
+ret = re.findall(pat, text)
+print(ret)
